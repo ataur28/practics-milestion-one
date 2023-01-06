@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+section {
+    margin-top: 100px;
+}
+
+/* header style */
+.header {
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+    background-image: url(../images/donation4.jpg);
+    background-blend-mode: multiply;
+    text-align: center;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-title {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.header-description {
+    color: lightgrey;
+    margin: 30px 0;
+    font-size: 18px;
+}
+
+.btn-Primary {
+    background-color: #f45656f2;
+    padding: 10px 12px;
+    border: 0;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* donate section*/
+.donate {
+    padding: 0 150px;
+    text-align: center;
+}
+
+.title-primary {
+    font-weight: 700;
+    font-size: 28px;
+    color: black;
+
+}
+
+.description-primary {
+    margin: 30px 0;
+    font-size: 18px;
+    color: #636161;
+}
+
+.donate ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate ul li {
+    list-style: none;
+    padding: 30px 15px;
+    border: 1px solid #f9f3f3; 
+    background-color: #f9f3f3;
+    font-size: 20px;
+    font-weight: 700;
+    color: #636161;
+    border-radius: 5px;
+    cursor: pointer;
+   
+    
+}
+.donate ul li:hover{
+    border: 1px solid #f45656f2;
+    color: #f45656f2;
+  
+}
+
+.donate-amount{
+    margin-top: 35px;
+    margin-bottom: 10px;
+    color: #a09d9d;
+}
+
+.hr{
+    color: #a09d9d;
+}
+
+/* our-donation */
+.our-donation{
+    padding: 0 150px;
+}
+.our-donation .title-primary{
+    text-align: center;
+}
+
+.our-donation .description-primary{
+    text-align: center;
+}
+.our-donation-item{
+    display: flex;
+    gap: 10px;
+
+}
+
+.our-donation-feld-food{
+    border: 1px solid #e9e2e8; 
+    background-color: #e9e2e8;
+    border-radius: 5px;
+    padding: 30px 15px;
+}
+.our-donation-feld-shelter{
+    border: 1px solid #f9f3f3; 
+    background-color: #f9f3f3;
+    border-radius: 5px;
+    padding: 30px 15px;
+}
+.our-donation-feld-education{
+    border: 1px solid #effccf; 
+    background-color: #effccf;
+    border-radius: 5px;
+    padding: 30px 15px;
+}
+
+.our-donation-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    margin: 15px 0;
+}
+.our-donation-description{
+    margin: 15px 0;
+    font-size: 16px;
+    color: #636161;
+    
+}
+
